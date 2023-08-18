@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className='nav__container'>
       
       <div className="nav__logo">
-      <Link to={'/'}> <img src="public/img/firma.svg" alt="" /></Link> </div>
+      <Link to={'/'}> <img src="/img/firma.svg" alt="" /></Link> </div>
  
     <div className={ `nav__group ${isOpen && "open"}`}>
 
