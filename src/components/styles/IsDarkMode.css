@@ -1,0 +1,51 @@
+.switch[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+.mov {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 70px;
+    height: 30px;
+    background: var(--color-green);
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  .mov:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+
+  .switch:checked + label {
+    background: var(--boddy-dark);
+  }
+
+  .switch:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+
+  .mov:active:after {
+    width: 65px;
+  }
+  
+  .group__dark {
+    position: relative;
+    display: flex;
+    justify-content: right;
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    
+  }
+  

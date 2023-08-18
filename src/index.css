@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+
+/* --- RESET --- */
+
+:root {
+  /*--COLORS--*/
+  --color-green: rgb(36, 207, 36);
+  --text-color: rgb(100, 99, 99);
+
+  /*COLORS DARK*/
+
+  --boddy-dark: #041800;
+  --text-dark: white;
+    --background-color: hsl(0, 0%, 11%); 
+  --title-color: hsl(0, 0%, 100%);
+  --bg-color:  hsl(0, 0%, 11%);
+  --sec-bg-color:background-color .3s ease-in-out
+
+}
+
+* {
+
+    box-sizing: border-box;
+
+  
+}
+
+html {
+  /*--FONTS--*/
+  
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  margin: 0;
+  
+}
+
+h1, h2, h3, h4, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
+}
+img {
+  width: 100%;
+  display: block;
+}
+input {
+  outline: none;
+  font-family: inherit;
+}
+
+a {
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit; 
+}
+
+
+  /*DARK MODE*/
+
+  body.dark-mode {
+    background-color: var(--background-color);
+
+
+    .descripcion, .about__description {
+      color: var(--text-dark);
+    
+  }
+
+
+    
+    .parrafo__contact, .descripcion_p,  .enlace__contact, .enlace{
+      
+      color: var(--text-dark);
+      
+    }
+
+    .enlace:hover, .enlace__contact:hover {
+      color: var(--color-green);
+
+    }
+
+}

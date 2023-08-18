@@ -1,0 +1,81 @@
+.contacto__container {
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   width: 100%;
+   padding-top: 5em;
+}
+
+.contacto__title{
+    color: var(--color-green);
+    text-align: center;
+    font-size: 2.4em;
+}
+
+
+.contacto__group {
+    padding-top: 3em;
+    align-items: center;
+    text-align: center;
+}
+
+
+.contacto__items {
+    display: grid;
+    width: 100%;
+    max-width: 500px;
+    gap: 1em;
+
+}
+
+.bx-envelope, .bx-phone {
+    color: var(--color-green);
+}
+
+.parrafo__contact{
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 1.2em;
+
+}
+
+
+.contacto__redes {
+    display: flex;
+    padding-top: 3em;
+    gap: 3em;
+    justify-content: center;
+}
+
+.red__icon  {
+    color: var(--color-green);
+    cursor: pointer;
+}
+.red__icon:hover {
+    color: gray;
+    transition:all .5s ease-in-out;
+}
+
+.descarga__cv {
+    align-items: flex-end;
+    justify-content: center;
+    width: 90%;
+    background-color: var(--color-green);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-family: inherit;
+    padding: 8px 20px;
+    border-radius: 0.5em;;
+}
+
+.descarga__cv:hover {
+    transition:all .5s ease-in-out;
+    color: white;
+    background-color:var(--text-color);
+}
+
+.cv__container {
+    padding-top: 3em;
+}

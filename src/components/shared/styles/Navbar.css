@@ -1,0 +1,113 @@
+.nav__container {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 1em;
+    
+    
+}
+
+.nav__logo {
+    width: 200px;
+    padding-left: 0.5em;
+    margin: 15px;
+    transition: transform 150ms ease;
+}
+
+.nav__log:hover {
+    transform: scale(1.03);
+    
+}
+
+.nav__group {
+    display: flex;
+    
+}
+
+.nav__component {
+    color: var(--color-green);
+    text-decoration: none;
+    margin: 15px;
+    position: relative;
+    font-weight: 600;
+    
+}
+
+.nav__toggle {
+    display: none;
+}
+
+
+@media (max-width: 600px){
+
+    .nav__logo {
+        width: 150px;
+        padding-left: 0.5em;
+        transition: transform 150ms ease;
+        margin: 15px;
+    }
+
+    .nav_container{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        
+    }
+ 
+    /*menu desplegable*/
+    .nav__group {
+        position: absolute;
+        top: 150px;
+        left: 0;
+        background-color: var(--color-green);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: -webkit-fill-avaiable;
+        transform: translateX(-100%);
+        transition: 1s ease all;
+        z-index: 99999;
+        
+    }
+
+    .nav__component {
+        color: white;
+    }
+
+    .nav__group.open {
+        transform: translateX(0);
+    }
+
+    .nav__toggle {
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+
+    .nav__toggle span {
+        width: 30px;
+        height: 4px;
+        background: var(--color-green);
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px 0px;
+        transition: all 1s linear;
+    }
+
+    .nav__toggle.open > span{
+      transform: rotate(45deg) translate(0px, 0px);
+    }
+
+    .nav__toggle.open > span:nth-child(2) {
+        display: none;
+      }
+
+      .nav__toggle.open > span:nth-child(3) {
+        transform: rotate(-45deg) translate(-5px, 1px);
+      }
+
+}
