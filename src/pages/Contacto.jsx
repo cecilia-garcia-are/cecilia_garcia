@@ -22,7 +22,7 @@ const Contacto = () => {
      <div className='contacto__group'>
 
       <div className='contacto__items'>
-      <span className='parrafo__contact'> <i className='bx bx-envelope bx-sm' > </i> ceg.arellano@gmail.com </span>
+      <span className='parrafo__contact'> <i className='bx bx-envelope bx-sm' > </i> fany_garcia13@hotmail.com </span>
       <span className='parrafo__contact'> <i className='bx bx-phone bx-sm'></i>+52 55 7011 5022</span>
       </div>
 

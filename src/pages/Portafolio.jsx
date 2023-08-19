@@ -26,14 +26,37 @@ const Portafolio = () => {
     window.open('https://e-commerce-api-cg.netlify.app')
   }
 
+  const handleECommerceAca= () => {
+    window.open('https://practica-e-commerce-ceciliagarcia.netlify.app/')
+  }
+
+  const handleECommerceBamboo= () => {
+    window.open('https://e-commerce-bamboomx-ceciliagarcia.netlify.app/')
+  }
 
   return (
     <div className='proy__container animated pulse'>
 
       
-      <h2 className='proy__title'>Mis proyectos en react</h2>
+      <h2 className='proy__title'>Mis proyectos</h2>
       
       <div className='proy__container'>
+
+      <div className='proy__group transUp'>
+        <h2 className='title__app'>E-commerce Vanilla</h2>
+        <img className='icon__api' src="/img/academlo.png" alt="" />
+
+        <p className='descripcion_p'>"Descubre nuestra app desarrollada con JavaScript a base de una Api, con funcionalidad completa. "</p>
+        <button className='button__app' onClick={handleECommerceAca} >Ir a la app</button>
+      </div>
+
+      <div className='proy__group transUp'>
+        <h2 className='title__app'>E-commerce Vanilla</h2>
+        <img className='icon__api' src="/img/bamboo-icon.png" alt="" />
+
+        <p className='descripcion_p'>"Descubre nuestra app desarrollada con JavaScript, maquetado sin funcionalidad . "</p>
+        <button className='button__app' onClick={handleECommerceBamboo} >Ir a la app</button>
+      </div>
       
       <div className='proy__group transUp'>
       <h2 className='title__app'>Galleta de la Fortuna</h2>
