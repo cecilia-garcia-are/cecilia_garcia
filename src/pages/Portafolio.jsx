@@ -46,7 +46,7 @@ const Portafolio = () => {
         <h2 className='title__app'>E-commerce Vanilla</h2>
         <img className='icon__api' src="/img/academlo.png" alt="" />
 
-        <p className='descripcion_p'>"Descubre nuestra app desarrollada con JavaScript a base de una Api, con funcionalidad completa. "</p>
+        <p className='descripcion_p'>"App desarrollada con JavaScript a base de una Api, con funcionalidad completa. "</p>
         <button className='button__app' onClick={handleECommerceAca} >Ir a la app</button>
       </div>
 
@@ -54,7 +54,7 @@ const Portafolio = () => {
         <h2 className='title__app'>E-commerce Vanilla</h2>
         <img className='icon__api' src="/img/bamboo-icon.png" alt="" />
 
-        <p className='descripcion_p'>"Descubre nuestra app desarrollada con JavaScript, maquetado sin funcionalidad . "</p>
+        <p className='descripcion_p'>"App resuelta con JavaScript, maquetado sin funcionalidad."</p>
         <button className='button__app' onClick={handleECommerceBamboo} >Ir a la app</button>
       </div>
       
