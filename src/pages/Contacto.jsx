@@ -33,7 +33,7 @@ const Contacto = () => {
       </div>
        
       <div className='cv__container'>
-      <a className='descarga__cv' href="CVCecilia_Garcia_Arellano.pdf" download={'CV Cecilia Garcia'}>Descargar CV</a>
+      <a className='descarga__cv' href="" download={''}>Descargar CV</a>
       </div>
 
       </div>
