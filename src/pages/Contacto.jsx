@@ -22,8 +22,9 @@ const Contacto = () => {
      <div className='contacto__group'>
 
       <div className='contacto__items'>
-      <span className='parrafo__contact'> <i className='bx bx-envelope bx-sm' > </i> fany_garcia13@hotmail.com </span>
-      <span className='parrafo__contact'> <i className='bx bx-phone bx-sm'></i>+52 55 7011 5022</span>
+      <span className='parrafo__contact'> <i className='bx bx-envelope bx-sm' > </i> 
+      <a href="mailto:fany_garcia13@hotmail.com">fany_garcia13@hotmail.com</a> </span>
+      <span className='parrafo__contact'> <i className='bx bx-phone bx-sm'></i><a href=" https://wa.me/525570115022">+52 55 7011 5022</a></span>
       </div>
 
       <div className='contacto__redes'>
